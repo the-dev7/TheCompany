@@ -1,0 +1,231 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>TheCompany</title>
+  </head>
+  <style>
+
+  @import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+  body
+  {
+    margin: 0 0 0 0;
+    background-image: url(res/work_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Sen;
+  }
+  .container
+  {
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 98%;
+    height: 98%;
+    background-color: rgba(0, 0, 0, 0.56);
+    text-align: center;
+  }
+
+  #logo
+  {
+    margin-top: -0.5%;
+    float: left;
+    color: lightgrey;
+  }
+
+  .links
+  {
+    margin-top: 1%;
+    margin-left: 24.2%;
+    background-color: transparent;
+    width: 50%;
+    height: 10%;
+    color: white;
+    font-size: 19px;
+  }
+
+  .links a
+  {
+    color: lightgrey;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    border-bottom: 0px;
+    transition: 0.25s;
+  }
+
+  .links a:hover
+  {
+    color: rgba(252,252,252,1);
+    border-bottom: 2px dashed rgba(252,252,252,1);
+    transition: 0.25s;
+  }
+
+  .links a.active
+  {
+    border-bottom: 2px dashed lightgrey;
+  }
+
+  .contact_us
+  {
+    float: right;
+    margin-top: -0.2%;
+    margin-right: 5%;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    background-color: transparent;
+    color: lightgrey;
+    font-size: 18px;
+    transition: 0.2s;
+}
+  .contact_us:hover
+  {
+    cursor: pointer;
+    background-color: lightgrey;
+    color: black;
+    transition: 0.2s;
+  }
+
+  .box
+  {
+    float: left;
+    margin-left: 5%;
+    margin-top: 0%;
+    width: 30%;
+    height: 70%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: rgba(242, 231, 231, 0.8);
+  }
+
+  .form {
+    float: right;
+    margin-right: 12%;
+    margin-top: 5%;
+    z-index: 1;
+    background: rgba(245,245,245,0.2);
+    border-radius: 20px;
+    max-width: 360px;
+    //margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  .form h1
+  {
+    color: lightgrey;
+    margin-top: -5%;
+    margin-bottom: 10%;
+  }
+
+  .form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #4cafa1;
+    width: 100%;
+    margin-top: 5%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #39c7b3;
+    transition: 0.3s ease;
+  }
+  .form .message {
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #4cafa1;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+  }
+
+  .learn_more
+  {
+    float: left;
+    margin-left: 0%;
+    margin-top: 10%;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    background-color: transparent;
+    color: lightgrey;
+    font-size: 18px;
+    transition: 0.2s;
+}
+  .learn_more:hover
+  {
+    cursor: pointer;
+    background-color: rgba(211,211,211,0.9);
+    color: black;
+    transition: 0.2s;
+  }
+
+  .footer
+  {
+    position: absolute;
+    float: left;
+    bottom: 15px;
+    color: rgba(214,198,198,0.76);
+  }
+
+  </style>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 id="logo">TheCompany</h2>
+        <a href="#"><button class='contact_us'>Contact Us</button></a>
+        <div class="links">
+          <a href="#" class="active">Home</a>
+          <a href="#">Projects</a>
+          <a href="#">Business</a>
+          <a href="#">Carrer</a>
+          <a href="#">Programs</a>
+        </div>
+      </div>
+
+        <div class="box">
+          <h1 id="slogan">We Build...<br>For The Future.</h1>
+          <br>
+          <p style="font-size: 18px;text-align: justify; margin-left: 0%; margin-right: 10%;">
+            TheCompany makes products that not only fixes our day-to-day problems but also paves way for development for the future. Our R&D teams works over the clock to deliver flawless products to our customers.
+          </p>
+          <a href="#"><button class='learn_more'>Learn More</button></a>
+        </div>
+
+        <form class="form">
+          <br>
+          <h1>MEMBER LOGIN</h1>
+          <br>
+          <input type="text" placeholder="Username"/>
+          <input type="password" placeholder="Password"/>
+          <button>login</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+        <div class="footer">© Abhinandan Deb</div>
+      </div>
+  </body>
+</html>
